@@ -13,7 +13,7 @@ Write a function which takes an array and emits the majority element (if it exis
        O/P : NONE
  */
 
-public class MajorityElement 
+public class MajorityElement2 
 {
 	public static void main(String[] args)
 	{
