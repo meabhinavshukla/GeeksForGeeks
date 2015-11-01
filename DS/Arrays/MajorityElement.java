@@ -22,9 +22,16 @@ public class MajorityElement
 		
 	}
 	
+	/* Moore's voting algorithm
+	* Basic idea of the algorithm is if we cancel out each occurrence of an element e with all the other elements 
+	* that are different from e then e will exist till end if it is a majority element.
+	*/
 	public static int findCandidate(int[] arr)
 	{
+		//Initialize index and count of majority element
 		int majorityElementIndex = 0, count = 1;
+		
+		//Loop for i = 1 to size – 1
 		for(int i = 1; i < arr.length - 1; i++)
 		{
 			if(arr[majorityElementIndex] == arr[i])
