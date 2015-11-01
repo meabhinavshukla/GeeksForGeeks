@@ -18,7 +18,7 @@ public class MajorityElement2
 	public static void main(String[] args)
 	{
 		int a[] = {1, 3, 3, 1, 3, 3, 2};
-	    printMajority(a);
+		printMajority(a);
 		
 	}
 	
