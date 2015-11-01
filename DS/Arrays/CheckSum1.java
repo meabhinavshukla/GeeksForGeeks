@@ -19,7 +19,10 @@ public class CheckSum1
 	
 	public static boolean hasSum(int[] arr, int sum)
 	{
+		// HashSet to store the elements of the given array
 		HashSet<Integer> elements = new HashSet<Integer>();
+		
+		// If sum - arr[i] is already present in the Hashset, we got the pair. Else add that element to HashSet.
 		for(int i = 0; i < arr.length; i++)
 		{
 			if(elements.contains(sum - arr[i]))
@@ -28,6 +31,7 @@ public class CheckSum1
 				elements.add(arr[i]);
 		}
 		
+		// Not found return false.
 		return false;
 	}
 }
