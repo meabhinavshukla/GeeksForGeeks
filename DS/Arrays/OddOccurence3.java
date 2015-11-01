@@ -14,7 +14,7 @@ public class OddOccurence3
 	public static void main(String[] args)
 	{
 		int ar[] = {2, 3, 5, 4, 5, 2, 4, 3, 5, 2, 4, 4, 2};
-	    System.out.println(oddOccur(ar));
+		System.out.println(oddOccur(ar));
 		
 	}
 	
